@@ -1,16 +1,41 @@
 # ADJUST-Assignment1
 
-Please design a script that writes the numbers from 1 - 10 in random order.  Each number should appear only once. You can use bash only.  Please provide tests for the script, along with documentation which should include  the following:    ● Build instructions  ● Usage  ● Description  ● Known limitations / bugs 
+Please design a script that writes the numbers from 1 - 10 in random order.  Each number should appear only once. You can use bash only.  Please provide tests for the script, along with documentation which should include  the following:    
+● Build instructions  ● Usage  ● Description  ● Known limitations / bugs 
 
 Script:
 
+~~~~~~~~
 #!/bin/bash
-
 echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
+~~~~~~~~
 
-Since there is only finte sequesnce we can use Fisher–Yates shuffle for generating a random permutation of a finite sequence
+Description::
 
+Since there is only finte sequesnce we can use Fisher–Yates shuffle for generating a random permutation of a finite sequence. 
+
+#################################################################################################
 
 Build Instruction:
 
-seq command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
+echo $(seq 10)
+
+## 'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
+[root@server ~]# echo $(seq 10)
+1 2 3 4 5 6 7 8 9 10
+
+###################################################################################################
+
+SHUF                                                                                                     User Commands                                                                                                      SHUF(1)
+
+## shuf - generate random permutations
+
+###################################################################################################
+
+tr:: translate
+"tr" command is to remove "new line" characters from a file. The new line character is specified as "\n".
+
+###################################################################################################
+
+
+
