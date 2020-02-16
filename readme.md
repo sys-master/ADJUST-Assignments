@@ -39,7 +39,7 @@ The Fisher-Yates shuffle (named after Ronald Fisher and Frank Yates) is used to 
 
 # echo $(seq 10)   
  
-# 'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
+'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [root@server ~]# echo $(seq 10)
@@ -50,7 +50,7 @@ The Fisher-Yates shuffle (named after Ronald Fisher and Frank Yates) is used to 
 ----------------------------------------------------------------
 
 # SHUF                                                                                                  
-# shuf - generate random permutations
+shuf - generate random permutations
 
 ----------------------------------------------------------------
 
