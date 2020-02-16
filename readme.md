@@ -4,7 +4,7 @@ Please design a script that writes the numbers from 1 - 10 in random order.  Ea
 ● Build instructions  ● Usage  ● Description  ● Known limitations / bugs 
 
 
-Solution:
+#Solution:
 
 Since there is only finte sequence we can use Fisher–Yates shuffle for generating a random permutation of a finite sequence. 
 
@@ -13,7 +13,7 @@ Since there is only finte sequence we can use Fisher–Yates shuffle for generat
 Script:
 
 ----------------------------------------------------------------
-#!/bin/bash
+# #!/bin/bash
 
 # echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
 
@@ -45,8 +45,8 @@ Build Instruction:
 
 ----------------------------------------------------------------
 
-## SHUF                                                                                                  
-## shuf - generate random permutations
+# SHUF                                                                                                  
+# shuf - generate random permutations
 
 ----------------------------------------------------------------
 
