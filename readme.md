@@ -4,13 +4,13 @@ Please design a script that writes the numbers from 1 - 10 in random order.  Ea
 ● Build instructions  ● Usage  ● Description  ● Known limitations / bugs 
 
 
-#Solution:
+# Solution:
 
 Since there is only finte sequence we can use Fisher–Yates shuffle for generating a random permutation of a finite sequence. 
 
 
 
-Script:
+# Script:
 
 ----------------------------------------------------------------
 # #!/bin/bash
@@ -18,6 +18,7 @@ Script:
 # echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
 
 
+----------------------------------------------------------------
 
 # Usage:
 
@@ -30,8 +31,9 @@ The Fisher-Yates shuffle (named after Ronald Fisher and Frank Yates) is used to 
 #  sh  random.sh                                            #
 #############################################################
 
+----------------------------------------------------------------
 
-Build Instruction:
+# Build Instruction:
 
 ----------------------------------------------------------------
 
