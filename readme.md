@@ -14,6 +14,7 @@ Script:
 
 ----------------------------------------------------------------
 #!/bin/bash
+
 echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
 -----------------------------------------------------------------
 
@@ -33,7 +34,8 @@ The Fisher-Yates shuffle (named after Ronald Fisher and Frank Yates) is used to 
 Build Instruction:
 
 ===================
- echo $(seq 10)                 
+ echo $(seq 10)   
+ 
 ===================
 
 ## 'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
