@@ -14,8 +14,9 @@ Script:
 
 ----------------------------------------------------------------
 #!/bin/bash
-echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
------------------------------------------------------------------
+
+# echo $(seq 10) |  tr " " "\n" |  shuf | tr '\n' ' '
+
 
 
 Usage:
@@ -32,28 +33,26 @@ The Fisher-Yates shuffle (named after Ronald Fisher and Frank Yates) is used to 
 
 Build Instruction:
 
+----------------------------------------------------------------
 
  ## echo $(seq 10)   
  
-
-
-## 'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
+# 'seq' command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. 
 
 
 [root@server ~]# echo $(seq 10)
 1 2 3 4 5 6 7 8 9 10
 
-
+----------------------------------------------------------------
 
 ## SHUF                                                                                                  
 ## shuf - generate random permutations
 
+----------------------------------------------------------------
 
-
-## tr:: translate
+# tr:: translate
 "tr" command is to remove "new line" characters from a file. The new line character is specified as "\n".
 
-=============================================================================================================
 
 Fisher-Yates is a perfect shuffling algorithm. It is a great shuffle with its O(n) complexity and its guaranteed uniformity. It permits in-place updates of arrays (so in most, if not all, imperative programming environments).
 
